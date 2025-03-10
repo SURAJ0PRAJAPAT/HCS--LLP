@@ -1,6 +1,8 @@
 # HCS--LLP
 step-by-step implementation for both projects:
 Key Considerations
+
+
 1.Legal Compliance
 
   a)Adhere to GDPR/CCPA regulations
