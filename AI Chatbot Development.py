@@ -1,18 +1,18 @@
-                   +-----------------+
-                   |  User Interface |
-                   +--------+--------+
-                            |
-                   +--------v--------+
-                   |  NLP Processor  |
-                   +--------+--------+
-                            |
-                   +--------v--------+
-                   |  Intent Engine  |
-                   +--------+--------+
-                            |
-+------------------+--------v--------+------------------+
-|   Knowledge Base |  Dialog Manager |  External APIs   |
-+------------------+-----------------+------------------+
+#                   +-----------------+
+#                   |  User Interface |
+#                   +--------+--------+
+#                            |
+ #                  +--------v--------+
+ #                  |  NLP Processor  |
+#                   +--------+--------+
+ #                           |
+ #                  +--------v--------+
+  #                 |  Intent Engine  |
+  #                 +--------+--------+
+   #                         |
+#+------------------+--------v--------+------------------+
+#|   Knowledge Base |  Dialog Manager |  External APIs   |
+#+------------------+-----------------+------------------+
 import pandas as pd
 import spacy
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -66,3 +66,45 @@ try:
     results = bot.handle_query("Find NGOs working in education near Mumbai")
 except Exception as e:
     print(f"Chatbot error: {str(e)}")
+  #-----------------------Chatbot Tests-----------------
+ # def test_chatbot():
+  #  test_cases = [
+   #     ("Education NGOs", 3),
+  #      ("Contact for ABC NGO", 1),
+   #     ("Invalid query", "default")
+   # ]
+    #for query, expected in test_cases:
+       # result = bot.handle_query(query)
+      #  assert len(result) == expected if isinstance(expected, int) else True
+#--------------------------------	Chatbot Development---------------
+#•	Phase 1: Basic Recommendation (3 days)
+#•	Phase 2: NLP Integration (2 days)
+#•	Phase 3: Deployment (1 day)
+
+
+#------------------ Enhanced Features------------------
+#1.	Add NLP processing with NLTK/spaCy
+#2.	Implement conversation flow
+#3.	Add email integration
+#4.	Create API endpoint using Flask
+
+#------------------Implementation Strategy-------------------------
+#1.	Scraper Development
+#•	Identify target websites (NGO Darpan from6)
+#•	Analyze website structure using browser DevTools
+#•	Implement pagination handling
+#•	Add error logging
+#2.	Data Validation
+#•	Clean data using pandas
+#•	Handle missing values
+#•	Standardize phone formats
+#3.	Chatbot Training
+#•	Create intent classification model
+#•	Implement response generation
+#•	Add context management
+#4.	Deployment
+#•	Containerize using Docker
+#•	Schedule scraping tasks
+#•	Deploy chatbot as web service
+
+
