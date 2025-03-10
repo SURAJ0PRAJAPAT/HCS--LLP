@@ -94,14 +94,17 @@ except Exception as e:
 #•	Analyze website structure using browser DevTools
 #•	Implement pagination handling
 #•	Add error logging
+
 #2.	Data Validation
 #•	Clean data using pandas
 #•	Handle missing values
 #•	Standardize phone formats
+
 #3.	Chatbot Training
 #•	Create intent classification model
 #•	Implement response generation
 #•	Add context management
+
 #4.	Deployment
 #•	Containerize using Docker
 #•	Schedule scraping tasks
