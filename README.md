@@ -1,28 +1,28 @@
 # HCS--LLP
 step-by-step implementation for both projects:
 Key Considerations
-Legal Compliance
+1.Legal Compliance
 
-Adhere to GDPR/CCPA regulations15
+  a)Adhere to GDPR/CCPA regulations
 
-Respect website terms of service7
+b)Respect website terms of service7
 
-Implement data anonymization3
+c)Implement data anonymization3
 
-Technical Best Practices
+2. Technical Best Practices
 
-Use rotating user agents1
+ a)Use rotating user agents1
 
-Implement CAPTCHA handling
+b)Implement CAPTCHA handling
 
-Add retry mechanisms
+c)Add retry mechanisms
 
-Monitor scrapers regularly3
+d)Monitor scrapers regularly
 
-Data Quality
+3.Data Quality
 
-Regular validation checks5
+a)Regular validation checks
 
-Update scraping logic for website changes
+b)Update scraping logic for website changes
 
-Maintain data versioning7
+c)Maintain data versioning
