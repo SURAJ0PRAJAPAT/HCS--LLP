@@ -1,3 +1,15 @@
+#I. Web Scraper Implementation
+
+#Target Analysis & Ethical Compliance
+
+#Target: https://ngodarpan.gov.in (sample implementation)
+
+#Check robots.txt: https://ngodarpan.gov.in/robots.txt
+
+# 5-second delay between requests
+
+#Implement rotating user agents
+
 # Install required libraries
 !pip install requests beautifulsoup4 pandas openpyxl
 import requests
