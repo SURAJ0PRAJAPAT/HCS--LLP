@@ -2,22 +2,6 @@
 step-by-step implementation for both projects:
 
 
-/project
-│
-├── scraper/
-│   ├── ngo_scraper.py
-│   └── requirements.txt
-│
-├── chatbot/
-│   ├── chatbot.py
-│   └── requirements.txt
-│
-├── data/
-│   └── ngo_data.xlsx
-│
-└── docs/
-    ├── SOP_Scraping.md
-    └── SOP_Chatbot.md
 
 
 
