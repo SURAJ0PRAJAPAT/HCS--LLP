@@ -49,6 +49,15 @@ def main():
 if __name__ == "__main__":
     main()
 
+
+   # def test_scraper():
+    #test_url = "https://ngodarpan.gov.in/sample-page"
+   # result = scrape_page(test_url)
+   # assert 'Name' in result, "Missing Name field"
+   # assert len(result['Phone']) == 10, "Invalid phone format"
+   # assert isinstance(result['Services'], list), "Services should be list"
+
+
 #Key features:
 #•	Respectful scraping with delays and headers
 #•	Error handling for missing elements
