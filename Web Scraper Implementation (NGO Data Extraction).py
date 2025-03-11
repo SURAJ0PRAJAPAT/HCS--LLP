@@ -11,7 +11,7 @@
 #Implement rotating user agents
 
 # Install required libraries
-!pip install requests beautifulsoup4 pandas openpyxl
+#!pip install requests beautifulsoup4 pandas openpyxl
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
